@@ -1,5 +1,6 @@
-;
-;	$VER: Security.cd 1.0 (30.09.2007)
+## version $VER: Security.catalog 1.0 (05.01.2020)
+## language portugu�s
+## codeset 0
 ;
 ; Translated by João Ralha (hardwired)
 ;
@@ -41,7 +42,6 @@ Entre a sua Password
 ;
 MSG_PASSWDPROMPT_CON
 ;Contraseña :
-Password :
 ;
 MSG_LOGINFAIL_GUI
 Utilizador incorrecto
