@@ -2,8 +2,7 @@
 
 include $(SRCDIR)/config/aros.cfg
 
-# croatian portuguese
-CATALOGS:= italian russian spanish
+CATALOGS:= croatian italian portuguese russian spanish
 
 %build_catalogs mmake=kernel-security-catalogs \
     catalogs=$(CATALOGS) description=$(SRCDIR)/$(CURDIR)/security \
