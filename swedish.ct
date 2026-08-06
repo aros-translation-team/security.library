@@ -1,0 +1,116 @@
+## version $VER: Security.catalog 1.0 (06.08.2026)
+## language svenska
+## codeset 0
+;
+MSG_OK
+OK
+; OK
+;
+MSG_RESUME
+Fortsätt
+; Resume
+;
+MSG_WARNING_GUI
+Säkerhetsvarning
+; Security Warning
+;
+MSG_LOGINREQ_GUI
+Säkerhetsinloggning
+; Security Login Request
+;
+MSG_LOGINPROMPT_GUI
+\33cVälkommen till AROS Research OS\nAROS-version: %s\n\nFyll i dina användaruppgifter\nför att logga in på %s.
+; \33cWelcome to the AROS Research OS\nAROS Version: %s\n\nPlease fill in your user details\nto log onto %s.
+;
+MSG_LOGINREQ_CON
+\033[0;0H\033[J\n\n\n     AROS %s på %s\n
+; \033[0;0H\033[J\n\n\n     AROS %s at %s\n
+;
+MSG_LOGINPROMPT_CON
+\n\nAnvändare:
+; \n\nLogin    :
+;
+MSG_PASSWDPROMPT_GUI
+Ange ditt lösenord
+; Enter your Password
+;
+MSG_PASSWDPROMPT_CON
+Lösenord :
+; Password :
+;
+MSG_LOGINFAIL_GUI
+Felaktig inloggning
+; Login Incorrect
+;
+MSG_LOGINFAIL_CON
+\n    Felaktig inloggning !!\n
+; \n    Login Incorrect !!\n
+;
+MSG_LASTLOGIN
+Inloggad %s, %s kl. %s.\n\nSenaste inloggning %s, %s kl. %s.
+; Logged in on %s, %s at %s.\n\nLast login on %s, %s at %s.
+;
+MSG_FIRSTLOGIN
+Inloggad %s, %s kl. %s.\n\nAldrig inloggad tidigare.
+; Logged in on %s, %s at %s.\n\nNever logged in before.
+;
+MSG_NOMUFS
+Du måste ha minst en partition med filsystemet AFFS
+; You must have at least one partition with the AFFS FileSystem
+;
+MSG_NOCONFIGFILE
+Kunde inte läsa in inställningsfilen\nAnvänder förvald konfiguration
+; Couldn't load the configuration file\nUsing the default configuration
+;
+MSG_BADKEYFILE
+Säkerhetsöverträdelse: Felaktig eller inkonsekvent nyckelfil hittades
+; Security violation: Bad or inconsistent keyfile(s) found
+;
+MSG_BADENTRY_PASSWD
+Felaktig post på rad %ld i lösenordsfilen\nDenna rad kommer att ignoreras
+; Bad entry found on line %ld of the password file\nThis line will be ignored
+;
+MSG_BADENTRY_GROUP
+Felaktig post på rad %ld i gruppfilen\nDenna rad kommer att ignoreras
+; Bad entry found on line %ld of the group file\nThis line will be ignored
+;
+MSG_BADVALUE_CONFIG
+Felaktigt värde på rad %ld i inställningsfilen\nDetta värde kommer att ignoreras
+; Bad value(s) found on line %ld of the configuration file\nThis value will be ignored
+;
+MSG_BADOPTION_CONFIG
+Felaktigt alternativ på rad %ld i inställningsfilen\nDenna rad kommer att ignoreras
+; Bad option found on line %ld of the configuration file\nThis line will be ignored
+;
+MSG_TOOMANYSECGROUPS
+För många sekundära grupper för användaren med uid %ld\nRad %ld i gruppfilen kommer att ignoreras
+; Too many secondary groups for user with uid %ld\nLine %ld of the group file will be ignored
+;
+MSG_LOG_STARTUP
+Uppstart
+; Startup
+;
+MSG_LOG_LOGIN
+Inloggning från %ld till \'%s\'
+; Login from %ld to \'%s\'
+;
+MSG_LOG_LOGINFAIL
+Inloggning från %ld till \'%s\' misslyckades
+; Login from %ld to \'%s\' failed
+;
+MSG_LOG_PASSWD
+Passwd för %ld
+; Passwd for %ld
+;
+MSG_LOG_PASSWDFAIL
+Passwd för %ld misslyckades
+; Passwd for %ld failed
+;
+MSG_LOG_CHECKPASSWD
+CheckPasswd för %ld
+; CheckPasswd for %ld
+;
+MSG_LOG_CHECKPASSWDFAIL
+CheckPasswd för %ld misslyckades
+; CheckPasswd for %ld failed
+;

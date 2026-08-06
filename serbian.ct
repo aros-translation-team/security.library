@@ -1,0 +1,116 @@
+## version $VER: Security.catalog 1.0 (06.08.2026)
+## language srpski
+## codeset 8
+;
+MSG_OK
+OK
+; OK
+;
+MSG_RESUME
+Nastavi
+; Resume
+;
+MSG_WARNING_GUI
+Bezbednosno upozorenje
+; Security Warning
+;
+MSG_LOGINREQ_GUI
+Bezbednosni zahtev za prijavu
+; Security Login Request
+;
+MSG_LOGINPROMPT_GUI
+\33cDobro doçli u AROS Research OS\nAROS verzija: %s\n\nUnesite svoje korisniŸke podatke\nda biste se prijavili na %s.
+; \33cWelcome to the AROS Research OS\nAROS Version: %s\n\nPlease fill in your user details\nto log onto %s.
+;
+MSG_LOGINREQ_CON
+\033[0;0H\033[J\n\n\n     AROS %s na %s\n
+; \033[0;0H\033[J\n\n\n     AROS %s at %s\n
+;
+MSG_LOGINPROMPT_CON
+\n\nKorisnik :
+; \n\nLogin    :
+;
+MSG_PASSWDPROMPT_GUI
+Unesite svoju lozinku
+; Enter your Password
+;
+MSG_PASSWDPROMPT_CON
+Lozinka  :
+; Password :
+;
+MSG_LOGINFAIL_GUI
+Neispravna prijava
+; Login Incorrect
+;
+MSG_LOGINFAIL_CON
+\n    Neispravna prijava !!\n
+; \n    Login Incorrect !!\n
+;
+MSG_LASTLOGIN
+Prijavljeni ste %s, %s u %s.\n\nPoslednja prijava %s, %s u %s.
+; Logged in on %s, %s at %s.\n\nLast login on %s, %s at %s.
+;
+MSG_FIRSTLOGIN
+Prijavljeni ste %s, %s u %s.\n\nNikada ranije niste bili prijavljeni.
+; Logged in on %s, %s at %s.\n\nNever logged in before.
+;
+MSG_NOMUFS
+Morate imati bar jednu particiju sa AFFS fajl sistemom
+; You must have at least one partition with the AFFS FileSystem
+;
+MSG_NOCONFIGFILE
+Ne mogu da uŸitam konfiguracioni fajl\nKoristim podrazumevanu konfiguraciju
+; Couldn't load the configuration file\nUsing the default configuration
+;
+MSG_BADKEYFILE
+Naruçavanje bezbednosti: pronaÐeni su neispravni ili nesaglasni keyfile-ovi
+; Security violation: Bad or inconsistent keyfile(s) found
+;
+MSG_BADENTRY_PASSWD
+Neispravan unos pronaÐen u liniji %ld fajla lozinki\nOva linija †e biti zanemarena
+; Bad entry found on line %ld of the password file\nThis line will be ignored
+;
+MSG_BADENTRY_GROUP
+Neispravan unos pronaÐen u liniji %ld fajla grupa\nOva linija †e biti zanemarena
+; Bad entry found on line %ld of the group file\nThis line will be ignored
+;
+MSG_BADVALUE_CONFIG
+Neispravne vrednosti pronaÐene u liniji %ld konfiguracionog fajla\nOva vrednost †e biti zanemarena
+; Bad value(s) found on line %ld of the configuration file\nThis value will be ignored
+;
+MSG_BADOPTION_CONFIG
+Neispravna opcija pronaÐena u liniji %ld konfiguracionog fajla\nOva linija †e biti zanemarena
+; Bad option found on line %ld of the configuration file\nThis line will be ignored
+;
+MSG_TOOMANYSECGROUPS
+Previçe sekundarnih grupa za korisnika sa uid %ld\nLinija %ld fajla grupa bi†e zanemarena
+; Too many secondary groups for user with uid %ld\nLine %ld of the group file will be ignored
+;
+MSG_LOG_STARTUP
+Pokretanje
+; Startup
+;
+MSG_LOG_LOGIN
+Prijava sa %ld na \'%s\'
+; Login from %ld to \'%s\'
+;
+MSG_LOG_LOGINFAIL
+Prijava sa %ld na \'%s\' nije uspela
+; Login from %ld to \'%s\' failed
+;
+MSG_LOG_PASSWD
+Passwd za %ld
+; Passwd for %ld
+;
+MSG_LOG_PASSWDFAIL
+Passwd za %ld nije uspeo
+; Passwd for %ld failed
+;
+MSG_LOG_CHECKPASSWD
+CheckPasswd za %ld
+; CheckPasswd for %ld
+;
+MSG_LOG_CHECKPASSWDFAIL
+CheckPasswd za %ld nije uspeo
+; CheckPasswd for %ld failed
+;

@@ -1,0 +1,116 @@
+## version $VER: Security.catalog 1.0 (06.08.2026)
+## language norsk
+## codeset 0
+;
+MSG_OK
+OK
+; OK
+;
+MSG_RESUME
+Fortsett
+; Resume
+;
+MSG_WARNING_GUI
+Sikkerhetsadvarsel
+; Security Warning
+;
+MSG_LOGINREQ_GUI
+Sikkerhet - innloggingsforespørsel
+; Security Login Request
+;
+MSG_LOGINPROMPT_GUI
+\33cVelkommen til AROS Research OS\nAROS-versjon: %s\n\nFyll inn brukeropplysningene dine\nfor å logge på %s.
+; \33cWelcome to the AROS Research OS\nAROS Version: %s\n\nPlease fill in your user details\nto log onto %s.
+;
+MSG_LOGINREQ_CON
+\033[0;0H\033[J\n\n\n     AROS %s på %s\n
+; \033[0;0H\033[J\n\n\n     AROS %s at %s\n
+;
+MSG_LOGINPROMPT_CON
+\n\nBrukernavn:
+; \n\nLogin    :
+;
+MSG_PASSWDPROMPT_GUI
+Skriv inn passordet ditt
+; Enter your Password
+;
+MSG_PASSWDPROMPT_CON
+Passord   :
+; Password :
+;
+MSG_LOGINFAIL_GUI
+Feil innlogging
+; Login Incorrect
+;
+MSG_LOGINFAIL_CON
+\n    Feil innlogging !!\n
+; \n    Login Incorrect !!\n
+;
+MSG_LASTLOGIN
+Logget inn %s, %s kl. %s.\n\nForrige innlogging %s, %s kl. %s.
+; Logged in on %s, %s at %s.\n\nLast login on %s, %s at %s.
+;
+MSG_FIRSTLOGIN
+Logget inn %s, %s kl. %s.\n\nAldri logget inn før.
+; Logged in on %s, %s at %s.\n\nNever logged in before.
+;
+MSG_NOMUFS
+Du må ha minst én partisjon med AFFS-filsystemet
+; You must have at least one partition with the AFFS FileSystem
+;
+MSG_NOCONFIGFILE
+Kunne ikke laste konfigurasjonsfilen\nBruker standardkonfigurasjonen
+; Couldn't load the configuration file\nUsing the default configuration
+;
+MSG_BADKEYFILE
+Sikkerhetsbrudd: Ugyldig(e) eller inkonsistent(e) nøkkelfil(er) funnet
+; Security violation: Bad or inconsistent keyfile(s) found
+;
+MSG_BADENTRY_PASSWD
+Ugyldig oppføring funnet på linje %ld i passordfilen\nDenne linjen blir ignorert
+; Bad entry found on line %ld of the password file\nThis line will be ignored
+;
+MSG_BADENTRY_GROUP
+Ugyldig oppføring funnet på linje %ld i gruppefilen\nDenne linjen blir ignorert
+; Bad entry found on line %ld of the group file\nThis line will be ignored
+;
+MSG_BADVALUE_CONFIG
+Ugyldig(e) verdi(er) funnet på linje %ld i konfigurasjonsfilen\nDenne verdien blir ignorert
+; Bad value(s) found on line %ld of the configuration file\nThis value will be ignored
+;
+MSG_BADOPTION_CONFIG
+Ugyldig valg funnet på linje %ld i konfigurasjonsfilen\nDenne linjen blir ignorert
+; Bad option found on line %ld of the configuration file\nThis line will be ignored
+;
+MSG_TOOMANYSECGROUPS
+For mange sekundære grupper for bruker med uid %ld\nLinje %ld i gruppefilen blir ignorert
+; Too many secondary groups for user with uid %ld\nLine %ld of the group file will be ignored
+;
+MSG_LOG_STARTUP
+Oppstart
+; Startup
+;
+MSG_LOG_LOGIN
+Innlogging fra %ld til \'%s\'
+; Login from %ld to \'%s\'
+;
+MSG_LOG_LOGINFAIL
+Innlogging fra %ld til \'%s\' feilet
+; Login from %ld to \'%s\' failed
+;
+MSG_LOG_PASSWD
+Passwd for %ld
+; Passwd for %ld
+;
+MSG_LOG_PASSWDFAIL
+Passwd for %ld feilet
+; Passwd for %ld failed
+;
+MSG_LOG_CHECKPASSWD
+CheckPasswd for %ld
+; CheckPasswd for %ld
+;
+MSG_LOG_CHECKPASSWDFAIL
+CheckPasswd for %ld feilet
+; CheckPasswd for %ld failed
+;

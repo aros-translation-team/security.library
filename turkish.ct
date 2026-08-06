@@ -1,0 +1,116 @@
+## version $VER: Security.catalog 1.0 (06.08.2026)
+## language türkçe
+## codeset 12
+;
+MSG_OK
+TAMAM
+; OK
+;
+MSG_RESUME
+Devam Et
+; Resume
+;
+MSG_WARNING_GUI
+Güvenlik Uyarýsý
+; Security Warning
+;
+MSG_LOGINREQ_GUI
+Güvenlik Oturum Açma Ýstemi
+; Security Login Request
+;
+MSG_LOGINPROMPT_GUI
+\33cAROS Research OS'a hoþ geldiniz\nAROS Sürümü: %s\n\n%s üzerinde oturum açmak için\nlütfen kullanýcý bilgilerinizi girin.
+; \33cWelcome to the AROS Research OS\nAROS Version: %s\n\nPlease fill in your user details\nto log onto %s.
+;
+MSG_LOGINREQ_CON
+\033[0;0H\033[J\n\n\n     AROS %s - %s\n
+; \033[0;0H\033[J\n\n\n     AROS %s at %s\n
+;
+MSG_LOGINPROMPT_CON
+\n\nKullanýcý:
+; \n\nLogin    :
+;
+MSG_PASSWDPROMPT_GUI
+Þifrenizi Girin
+; Enter your Password
+;
+MSG_PASSWDPROMPT_CON
+Þifre    :
+; Password :
+;
+MSG_LOGINFAIL_GUI
+Giriþ Hatalý
+; Login Incorrect
+;
+MSG_LOGINFAIL_CON
+\n    Giriþ Hatalý !!\n
+; \n    Login Incorrect !!\n
+;
+MSG_LASTLOGIN
+Oturum açýlýþý: %s, %s saat %s.\n\nSon oturum açýlýþý: %s, %s saat %s.
+; Logged in on %s, %s at %s.\n\nLast login on %s, %s at %s.
+;
+MSG_FIRSTLOGIN
+Oturum açýlýþý: %s, %s saat %s.\n\nDaha önce hiç oturum açýlmadý.
+; Logged in on %s, %s at %s.\n\nNever logged in before.
+;
+MSG_NOMUFS
+AFFS Dosya Sistemine sahip en az bir bölümünüz olmalýdýr
+; You must have at least one partition with the AFFS FileSystem
+;
+MSG_NOCONFIGFILE
+Yapýlandýrma dosyasý yüklenemedi\nVarsayýlan yapýlandýrma kullanýlýyor
+; Couldn't load the configuration file\nUsing the default configuration
+;
+MSG_BADKEYFILE
+Güvenlik ihlali: Hatalý veya tutarsýz anahtar dosyasý(larý) bulundu
+; Security violation: Bad or inconsistent keyfile(s) found
+;
+MSG_BADENTRY_PASSWD
+Þifre dosyasýnýn %ld satýrýnda hatalý girdi bulundu\nBu satýr yok sayýlacak
+; Bad entry found on line %ld of the password file\nThis line will be ignored
+;
+MSG_BADENTRY_GROUP
+Grup dosyasýnýn %ld satýrýnda hatalý girdi bulundu\nBu satýr yok sayýlacak
+; Bad entry found on line %ld of the group file\nThis line will be ignored
+;
+MSG_BADVALUE_CONFIG
+Yapýlandýrma dosyasýnýn %ld satýrýnda hatalý deðer(ler) bulundu\nBu deðer yok sayýlacak
+; Bad value(s) found on line %ld of the configuration file\nThis value will be ignored
+;
+MSG_BADOPTION_CONFIG
+Yapýlandýrma dosyasýnýn %ld satýrýnda hatalý seçenek bulundu\nBu satýr yok sayýlacak
+; Bad option found on line %ld of the configuration file\nThis line will be ignored
+;
+MSG_TOOMANYSECGROUPS
+uid %ld olan kullanýcý için çok fazla ikincil grup var\nGrup dosyasýnýn %ld satýrý yok sayýlacak
+; Too many secondary groups for user with uid %ld\nLine %ld of the group file will be ignored
+;
+MSG_LOG_STARTUP
+Baþlangýç
+; Startup
+;
+MSG_LOG_LOGIN
+%ld kimliðinden \'%s\' hesabýna giriþ
+; Login from %ld to \'%s\'
+;
+MSG_LOG_LOGINFAIL
+%ld kimliðinden \'%s\' hesabýna giriþ baþarýsýz
+; Login from %ld to \'%s\' failed
+;
+MSG_LOG_PASSWD
+%ld için Passwd
+; Passwd for %ld
+;
+MSG_LOG_PASSWDFAIL
+%ld için Passwd baþarýsýz
+; Passwd for %ld failed
+;
+MSG_LOG_CHECKPASSWD
+%ld için CheckPasswd
+; CheckPasswd for %ld
+;
+MSG_LOG_CHECKPASSWDFAIL
+%ld için CheckPasswd baþarýsýz
+; CheckPasswd for %ld failed
+;

@@ -1,0 +1,116 @@
+## version $VER: Security.catalog 1.0 (06.08.2026)
+## language euskara
+## codeset 0
+;
+MSG_OK
+Ados
+; OK
+;
+MSG_RESUME
+Jarraitu
+; Resume
+;
+MSG_WARNING_GUI
+Segurtasun-abisua
+; Security Warning
+;
+MSG_LOGINREQ_GUI
+Segurtasuneko saio-hasiera eskaera
+; Security Login Request
+;
+MSG_LOGINPROMPT_GUI
+\33cOngi etorri AROS Research OS-era\nAROS bertsioa: %s\n\nMesedez, bete zure erabiltzaile-datuak\n%s makinan saioa hasteko.
+; \33cWelcome to the AROS Research OS\nAROS Version: %s\n\nPlease fill in your user details\nto log onto %s.
+;
+MSG_LOGINREQ_CON
+\033[0;0H\033[J\n\n\n     AROS %s - %s\n
+; \033[0;0H\033[J\n\n\n     AROS %s at %s\n
+;
+MSG_LOGINPROMPT_CON
+\n\nErabiltzailea :
+; \n\nLogin    :
+;
+MSG_PASSWDPROMPT_GUI
+Sartu zure pasahitza
+; Enter your Password
+;
+MSG_PASSWDPROMPT_CON
+Pasahitza     :
+; Password :
+;
+MSG_LOGINFAIL_GUI
+Saio-hasiera okerra
+; Login Incorrect
+;
+MSG_LOGINFAIL_CON
+\n    Saio-hasiera okerra !!\n
+; \n    Login Incorrect !!\n
+;
+MSG_LASTLOGIN
+Saioa hasi da: %s, %s, %s.\n\nAurreko saio-hasiera: %s, %s, %s.
+; Logged in on %s, %s at %s.\n\nLast login on %s, %s at %s.
+;
+MSG_FIRSTLOGIN
+Saioa hasi da: %s, %s, %s.\n\nAurretik ez da inoiz saiorik hasi.
+; Logged in on %s, %s at %s.\n\nNever logged in before.
+;
+MSG_NOMUFS
+Gutxienez AFFS fitxategi-sistemadun partizio bat eduki behar duzu
+; You must have at least one partition with the AFFS FileSystem
+;
+MSG_NOCONFIGFILE
+Ezin izan da konfigurazio-fitxategia kargatu\nKonfigurazio lehenetsia erabiltzen
+; Couldn't load the configuration file\nUsing the default configuration
+;
+MSG_BADKEYFILE
+Segurtasun-urraketa: Gako-fitxategi oker edo inkoherenteak aurkitu dira
+; Security violation: Bad or inconsistent keyfile(s) found
+;
+MSG_BADENTRY_PASSWD
+Sarrera oker bat aurkitu da pasahitz-fitxategiaren %ld lerroan\nLerro honi ez zaio jaramonik egingo
+; Bad entry found on line %ld of the password file\nThis line will be ignored
+;
+MSG_BADENTRY_GROUP
+Sarrera oker bat aurkitu da talde-fitxategiaren %ld lerroan\nLerro honi ez zaio jaramonik egingo
+; Bad entry found on line %ld of the group file\nThis line will be ignored
+;
+MSG_BADVALUE_CONFIG
+Balio okerrak aurkitu dira konfigurazio-fitxategiaren %ld lerroan\nBalio honi ez zaio jaramonik egingo
+; Bad value(s) found on line %ld of the configuration file\nThis value will be ignored
+;
+MSG_BADOPTION_CONFIG
+Aukera oker bat aurkitu da konfigurazio-fitxategiaren %ld lerroan\nLerro honi ez zaio jaramonik egingo
+; Bad option found on line %ld of the configuration file\nThis line will be ignored
+;
+MSG_TOOMANYSECGROUPS
+Bigarren mailako talde gehiegi %ld uid-a duen erabiltzailearentzat\nTalde-fitxategiaren %ld lerroari ez zaio jaramonik egingo
+; Too many secondary groups for user with uid %ld\nLine %ld of the group file will be ignored
+;
+MSG_LOG_STARTUP
+Abioa
+; Startup
+;
+MSG_LOG_LOGIN
+Saio-hasiera %ld-tik \'%s\'-ra
+; Login from %ld to \'%s\'
+;
+MSG_LOG_LOGINFAIL
+Saio-hasierak huts egin du %ld-tik \'%s\'-ra
+; Login from %ld to \'%s\' failed
+;
+MSG_LOG_PASSWD
+Passwd %ld erabiltzailearentzat
+; Passwd for %ld
+;
+MSG_LOG_PASSWDFAIL
+Passwd-ek huts egin du %ld erabiltzailearentzat
+; Passwd for %ld failed
+;
+MSG_LOG_CHECKPASSWD
+CheckPasswd %ld erabiltzailearentzat
+; CheckPasswd for %ld
+;
+MSG_LOG_CHECKPASSWDFAIL
+CheckPasswd-ek huts egin du %ld erabiltzailearentzat
+; CheckPasswd for %ld failed
+;

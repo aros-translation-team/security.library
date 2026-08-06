@@ -1,0 +1,116 @@
+## version $VER: Security.catalog 1.0 (06.08.2026)
+## language suomi
+## codeset 0
+;
+MSG_OK
+Hyväksy
+; OK
+;
+MSG_RESUME
+Jatka
+; Resume
+;
+MSG_WARNING_GUI
+Tietoturvavaroitus
+; Security Warning
+;
+MSG_LOGINREQ_GUI
+Tietoturvan kirjautumispyyntö
+; Security Login Request
+;
+MSG_LOGINPROMPT_GUI
+\33cTervetuloa AROS Research OS -käyttöjärjestelmään\nAROS-versio: %s\n\nSyötä käyttäjätietosi\nkirjautuaksesi kohteeseen %s.
+; \33cWelcome to the AROS Research OS\nAROS Version: %s\n\nPlease fill in your user details\nto log onto %s.
+;
+MSG_LOGINREQ_CON
+\033[0;0H\033[J\n\n\n     AROS %s koneessa %s\n
+; \033[0;0H\033[J\n\n\n     AROS %s at %s\n
+;
+MSG_LOGINPROMPT_CON
+\n\nTunnus   :
+; \n\nLogin    :
+;
+MSG_PASSWDPROMPT_GUI
+Syötä salasanasi
+; Enter your Password
+;
+MSG_PASSWDPROMPT_CON
+Salasana :
+; Password :
+;
+MSG_LOGINFAIL_GUI
+Virheellinen kirjautuminen
+; Login Incorrect
+;
+MSG_LOGINFAIL_CON
+\n    Virheellinen kirjautuminen !!\n
+; \n    Login Incorrect !!\n
+;
+MSG_LASTLOGIN
+Kirjauduttu sisään %s, %s klo %s.\n\nEdellinen kirjautuminen %s, %s klo %s.
+; Logged in on %s, %s at %s.\n\nLast login on %s, %s at %s.
+;
+MSG_FIRSTLOGIN
+Kirjauduttu sisään %s, %s klo %s.\n\nEi aiempia kirjautumisia.
+; Logged in on %s, %s at %s.\n\nNever logged in before.
+;
+MSG_NOMUFS
+Vähintään yhdessä osiossa on oltava AFFS-tiedostojärjestelmä
+; You must have at least one partition with the AFFS FileSystem
+;
+MSG_NOCONFIGFILE
+Asetustiedostoa ei voitu ladata\nKäytetään oletusasetuksia
+; Couldn't load the configuration file\nUsing the default configuration
+;
+MSG_BADKEYFILE
+Tietoturvaloukkaus: Virheellisiä tai ristiriitaisia avaintiedostoja löytyi
+; Security violation: Bad or inconsistent keyfile(s) found
+;
+MSG_BADENTRY_PASSWD
+Virheellinen merkintä salasanatiedoston rivillä %ld\nTämä rivi ohitetaan
+; Bad entry found on line %ld of the password file\nThis line will be ignored
+;
+MSG_BADENTRY_GROUP
+Virheellinen merkintä ryhmätiedoston rivillä %ld\nTämä rivi ohitetaan
+; Bad entry found on line %ld of the group file\nThis line will be ignored
+;
+MSG_BADVALUE_CONFIG
+Virheellisiä arvoja asetustiedoston rivillä %ld\nTämä arvo ohitetaan
+; Bad value(s) found on line %ld of the configuration file\nThis value will be ignored
+;
+MSG_BADOPTION_CONFIG
+Virheellinen valitsin asetustiedoston rivillä %ld\nTämä rivi ohitetaan
+; Bad option found on line %ld of the configuration file\nThis line will be ignored
+;
+MSG_TOOMANYSECGROUPS
+Liian monta toissijaista ryhmää käyttäjällä, jonka uid on %ld\nRyhmätiedoston rivi %ld ohitetaan
+; Too many secondary groups for user with uid %ld\nLine %ld of the group file will be ignored
+;
+MSG_LOG_STARTUP
+Käynnistys
+; Startup
+;
+MSG_LOG_LOGIN
+Kirjautuminen käyttäjästä %ld käyttäjään \'%s\'
+; Login from %ld to \'%s\'
+;
+MSG_LOG_LOGINFAIL
+Kirjautuminen käyttäjästä %ld käyttäjään \'%s\' epäonnistui
+; Login from %ld to \'%s\' failed
+;
+MSG_LOG_PASSWD
+Passwd käyttäjälle %ld
+; Passwd for %ld
+;
+MSG_LOG_PASSWDFAIL
+Passwd käyttäjälle %ld epäonnistui
+; Passwd for %ld failed
+;
+MSG_LOG_CHECKPASSWD
+CheckPasswd käyttäjälle %ld
+; CheckPasswd for %ld
+;
+MSG_LOG_CHECKPASSWDFAIL
+CheckPasswd käyttäjälle %ld epäonnistui
+; CheckPasswd for %ld failed
+;

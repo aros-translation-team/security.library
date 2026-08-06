@@ -1,0 +1,116 @@
+## version $VER: Security.catalog 1.0 (06.08.2026)
+## language czech
+## codeset 5
+;
+MSG_OK
+OK
+; OK
+;
+MSG_RESUME
+Pokraèovat
+; Resume
+;
+MSG_WARNING_GUI
+Bezpeènostní varování
+; Security Warning
+;
+MSG_LOGINREQ_GUI
+Pøihlá¹ení do systému
+; Security Login Request
+;
+MSG_LOGINPROMPT_GUI
+\33cVítejte v systému AROS Research OS\nVerze AROS: %s\n\nZadejte prosím své pøihla¹ovací údaje\npro pøihlá¹ení k %s.
+; \33cWelcome to the AROS Research OS\nAROS Version: %s\n\nPlease fill in your user details\nto log onto %s.
+;
+MSG_LOGINREQ_CON
+\033[0;0H\033[J\n\n\n     AROS %s na %s\n
+; \033[0;0H\033[J\n\n\n     AROS %s at %s\n
+;
+MSG_LOGINPROMPT_CON
+\n\nJméno    :
+; \n\nLogin    :
+;
+MSG_PASSWDPROMPT_GUI
+Zadejte své heslo
+; Enter your Password
+;
+MSG_PASSWDPROMPT_CON
+Heslo    :
+; Password :
+;
+MSG_LOGINFAIL_GUI
+Chybné pøihlá¹ení
+; Login Incorrect
+;
+MSG_LOGINFAIL_CON
+\n    Chybné pøihlá¹ení !!\n
+; \n    Login Incorrect !!\n
+;
+MSG_LASTLOGIN
+Pøihlá¹ení: %s, %s v %s.\n\nPoslední pøihlá¹ení: %s, %s v %s.
+; Logged in on %s, %s at %s.\n\nLast login on %s, %s at %s.
+;
+MSG_FIRSTLOGIN
+Pøihlá¹ení: %s, %s v %s.\n\nDosud nikdy nepøihlá¹en.
+; Logged in on %s, %s at %s.\n\nNever logged in before.
+;
+MSG_NOMUFS
+Musíte mít alespoò jeden oddíl se souborovým systémem AFFS
+; You must have at least one partition with the AFFS FileSystem
+;
+MSG_NOCONFIGFILE
+Nepodaøilo se naèíst konfiguraèní soubor\nPou¾ije se výchozí konfigurace
+; Couldn't load the configuration file\nUsing the default configuration
+;
+MSG_BADKEYFILE
+Naru¹ení bezpeènosti: nalezen chybný nebo nekonzistentní klíèový soubor
+; Security violation: Bad or inconsistent keyfile(s) found
+;
+MSG_BADENTRY_PASSWD
+Chybný záznam na øádku %ld souboru s hesly\nTento øádek bude ignorován
+; Bad entry found on line %ld of the password file\nThis line will be ignored
+;
+MSG_BADENTRY_GROUP
+Chybný záznam na øádku %ld souboru se skupinami\nTento øádek bude ignorován
+; Bad entry found on line %ld of the group file\nThis line will be ignored
+;
+MSG_BADVALUE_CONFIG
+Chybná hodnota na øádku %ld konfiguraèního souboru\nTato hodnota bude ignorována
+; Bad value(s) found on line %ld of the configuration file\nThis value will be ignored
+;
+MSG_BADOPTION_CONFIG
+Chybná volba na øádku %ld konfiguraèního souboru\nTento øádek bude ignorován
+; Bad option found on line %ld of the configuration file\nThis line will be ignored
+;
+MSG_TOOMANYSECGROUPS
+Pøíli¹ mnoho vedlej¹ích skupin pro u¾ivatele s uid %ld\nØádek %ld souboru se skupinami bude ignorován
+; Too many secondary groups for user with uid %ld\nLine %ld of the group file will be ignored
+;
+MSG_LOG_STARTUP
+Spu¹tìní
+; Startup
+;
+MSG_LOG_LOGIN
+Pøihlá¹ení z %ld k \'%s\'
+; Login from %ld to \'%s\'
+;
+MSG_LOG_LOGINFAIL
+Pøihlá¹ení z %ld k \'%s\' selhalo
+; Login from %ld to \'%s\' failed
+;
+MSG_LOG_PASSWD
+Passwd pro %ld
+; Passwd for %ld
+;
+MSG_LOG_PASSWDFAIL
+Passwd pro %ld selhalo
+; Passwd for %ld failed
+;
+MSG_LOG_CHECKPASSWD
+CheckPasswd pro %ld
+; CheckPasswd for %ld
+;
+MSG_LOG_CHECKPASSWDFAIL
+CheckPasswd pro %ld selhalo
+; CheckPasswd for %ld failed
+;

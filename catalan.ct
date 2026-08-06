@@ -1,0 +1,116 @@
+## version $VER: Security.catalog 1.0 (06.08.2026)
+## language català
+## codeset 0
+;
+MSG_OK
+D'Acord
+; OK
+;
+MSG_RESUME
+Reprendre
+; Resume
+;
+MSG_WARNING_GUI
+Avís de seguretat
+; Security Warning
+;
+MSG_LOGINREQ_GUI
+Petició d'inici de sessió de seguretat
+; Security Login Request
+;
+MSG_LOGINPROMPT_GUI
+\33cBenvingut a l'AROS Research OS\nVersió d'AROS: %s\n\nIntroduïu les vostres dades d'usuari\nper iniciar sessió a %s.
+; \33cWelcome to the AROS Research OS\nAROS Version: %s\n\nPlease fill in your user details\nto log onto %s.
+;
+MSG_LOGINREQ_CON
+\033[0;0H\033[J\n\n\n     AROS %s a %s\n
+; \033[0;0H\033[J\n\n\n     AROS %s at %s\n
+;
+MSG_LOGINPROMPT_CON
+\n\nUsuari      :
+; \n\nLogin    :
+;
+MSG_PASSWDPROMPT_GUI
+Introduïu la vostra contrasenya
+; Enter your Password
+;
+MSG_PASSWDPROMPT_CON
+Contrasenya :
+; Password :
+;
+MSG_LOGINFAIL_GUI
+Inici de sessió incorrecte
+; Login Incorrect
+;
+MSG_LOGINFAIL_CON
+\n    Inici de sessió incorrecte !!\n
+; \n    Login Incorrect !!\n
+;
+MSG_LASTLOGIN
+Sessió iniciada el %s, %s a les %s.\n\nÚltima sessió el %s, %s a les %s.
+; Logged in on %s, %s at %s.\n\nLast login on %s, %s at %s.
+;
+MSG_FIRSTLOGIN
+Sessió iniciada el %s, %s a les %s.\n\nMai no s'havia iniciat sessió abans.
+; Logged in on %s, %s at %s.\n\nNever logged in before.
+;
+MSG_NOMUFS
+Heu de tenir almenys una partició amb el sistema de fitxers AFFS
+; You must have at least one partition with the AFFS FileSystem
+;
+MSG_NOCONFIGFILE
+No s'ha pogut carregar el fitxer de configuració\nS'utilitzarà la configuració per defecte
+; Couldn't load the configuration file\nUsing the default configuration
+;
+MSG_BADKEYFILE
+Violació de seguretat: s'han trobat fitxers de clau incorrectes o inconsistents
+; Security violation: Bad or inconsistent keyfile(s) found
+;
+MSG_BADENTRY_PASSWD
+S'ha trobat una entrada incorrecta a la línia %ld del fitxer de contrasenyes\nAquesta línia serà ignorada
+; Bad entry found on line %ld of the password file\nThis line will be ignored
+;
+MSG_BADENTRY_GROUP
+S'ha trobat una entrada incorrecta a la línia %ld del fitxer de grups\nAquesta línia serà ignorada
+; Bad entry found on line %ld of the group file\nThis line will be ignored
+;
+MSG_BADVALUE_CONFIG
+S'han trobat valors incorrectes a la línia %ld del fitxer de configuració\nAquest valor serà ignorat
+; Bad value(s) found on line %ld of the configuration file\nThis value will be ignored
+;
+MSG_BADOPTION_CONFIG
+S'ha trobat una opció incorrecta a la línia %ld del fitxer de configuració\nAquesta línia serà ignorada
+; Bad option found on line %ld of the configuration file\nThis line will be ignored
+;
+MSG_TOOMANYSECGROUPS
+Massa grups secundaris per a l'usuari amb uid %ld\nLa línia %ld del fitxer de grups serà ignorada
+; Too many secondary groups for user with uid %ld\nLine %ld of the group file will be ignored
+;
+MSG_LOG_STARTUP
+Inici
+; Startup
+;
+MSG_LOG_LOGIN
+Inici de sessió de %ld a \'%s\'
+; Login from %ld to \'%s\'
+;
+MSG_LOG_LOGINFAIL
+L'inici de sessió de %ld a \'%s\' ha fallat
+; Login from %ld to \'%s\' failed
+;
+MSG_LOG_PASSWD
+Passwd per a %ld
+; Passwd for %ld
+;
+MSG_LOG_PASSWDFAIL
+Passwd per a %ld ha fallat
+; Passwd for %ld failed
+;
+MSG_LOG_CHECKPASSWD
+CheckPasswd per a %ld
+; CheckPasswd for %ld
+;
+MSG_LOG_CHECKPASSWDFAIL
+CheckPasswd per a %ld ha fallat
+; CheckPasswd for %ld failed
+;

@@ -1,0 +1,116 @@
+## version $VER: Security.catalog 1.0 (06.08.2026)
+## language deutsch
+## codeset 0
+;
+MSG_OK
+OK
+; OK
+;
+MSG_RESUME
+Fortsetzen
+; Resume
+;
+MSG_WARNING_GUI
+Sicherheitswarnung
+; Security Warning
+;
+MSG_LOGINREQ_GUI
+Sicherheits-Anmeldeanfrage
+; Security Login Request
+;
+MSG_LOGINPROMPT_GUI
+\33cWillkommen beim AROS Research OS\nAROS-Version: %s\n\nBitte geben Sie Ihre Benutzerdaten ein,\num sich an %s anzumelden.
+; \33cWelcome to the AROS Research OS\nAROS Version: %s\n\nPlease fill in your user details\nto log onto %s.
+;
+MSG_LOGINREQ_CON
+\033[0;0H\033[J\n\n\n     AROS %s auf %s\n
+; \033[0;0H\033[J\n\n\n     AROS %s at %s\n
+;
+MSG_LOGINPROMPT_CON
+\n\nBenutzer :
+; \n\nLogin    :
+;
+MSG_PASSWDPROMPT_GUI
+Geben Sie Ihr Passwort ein
+; Enter your Password
+;
+MSG_PASSWDPROMPT_CON
+Passwort :
+; Password :
+;
+MSG_LOGINFAIL_GUI
+Anmeldung fehlgeschlagen
+; Login Incorrect
+;
+MSG_LOGINFAIL_CON
+\n    Anmeldung fehlgeschlagen !!\n
+; \n    Login Incorrect !!\n
+;
+MSG_LASTLOGIN
+Angemeldet am %s, %s um %s.\n\nLetzte Anmeldung am %s, %s um %s.
+; Logged in on %s, %s at %s.\n\nLast login on %s, %s at %s.
+;
+MSG_FIRSTLOGIN
+Angemeldet am %s, %s um %s.\n\nNoch nie zuvor angemeldet.
+; Logged in on %s, %s at %s.\n\nNever logged in before.
+;
+MSG_NOMUFS
+Sie benötigen mindestens eine Partition mit dem AFFS-Dateisystem
+; You must have at least one partition with the AFFS FileSystem
+;
+MSG_NOCONFIGFILE
+Konfigurationsdatei konnte nicht geladen werden\nStandardkonfiguration wird verwendet
+; Couldn't load the configuration file\nUsing the default configuration
+;
+MSG_BADKEYFILE
+Sicherheitsverletzung: Fehlerhafte oder inkonsistente Schlüsseldatei(en) gefunden
+; Security violation: Bad or inconsistent keyfile(s) found
+;
+MSG_BADENTRY_PASSWD
+Fehlerhafter Eintrag in Zeile %ld der Passwortdatei gefunden\nDiese Zeile wird ignoriert
+; Bad entry found on line %ld of the password file\nThis line will be ignored
+;
+MSG_BADENTRY_GROUP
+Fehlerhafter Eintrag in Zeile %ld der Gruppendatei gefunden\nDiese Zeile wird ignoriert
+; Bad entry found on line %ld of the group file\nThis line will be ignored
+;
+MSG_BADVALUE_CONFIG
+Fehlerhafte(r) Wert(e) in Zeile %ld der Konfigurationsdatei gefunden\nDieser Wert wird ignoriert
+; Bad value(s) found on line %ld of the configuration file\nThis value will be ignored
+;
+MSG_BADOPTION_CONFIG
+Fehlerhafte Option in Zeile %ld der Konfigurationsdatei gefunden\nDiese Zeile wird ignoriert
+; Bad option found on line %ld of the configuration file\nThis line will be ignored
+;
+MSG_TOOMANYSECGROUPS
+Zu viele sekundäre Gruppen für Benutzer mit UID %ld\nZeile %ld der Gruppendatei wird ignoriert
+; Too many secondary groups for user with uid %ld\nLine %ld of the group file will be ignored
+;
+MSG_LOG_STARTUP
+Start
+; Startup
+;
+MSG_LOG_LOGIN
+Anmeldung von %ld bei \'%s\'
+; Login from %ld to \'%s\'
+;
+MSG_LOG_LOGINFAIL
+Anmeldung von %ld bei \'%s\' fehlgeschlagen
+; Login from %ld to \'%s\' failed
+;
+MSG_LOG_PASSWD
+Passwd für %ld
+; Passwd for %ld
+;
+MSG_LOG_PASSWDFAIL
+Passwd für %ld fehlgeschlagen
+; Passwd for %ld failed
+;
+MSG_LOG_CHECKPASSWD
+CheckPasswd für %ld
+; CheckPasswd for %ld
+;
+MSG_LOG_CHECKPASSWDFAIL
+CheckPasswd für %ld fehlgeschlagen
+; CheckPasswd for %ld failed
+;
