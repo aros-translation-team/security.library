@@ -1,4 +1,4 @@
-## version $VER: Security.catalog 1.0 (06.08.2026)
+## version $VER: Security.catalog 1.1 (17.10.2026)
 ## language srpski
 ## codeset 8
 ;
@@ -113,4 +113,24 @@ CheckPasswd za %ld
 MSG_LOG_CHECKPASSWDFAIL
 CheckPasswd za %ld nije uspeo
 ; CheckPasswd for %ld failed
+;
+MSG_KEY_INSERT
+Ubacite svoj bezbednosni kljuü
+; Insert your security key
+;
+MSG_KEY_TOUCH
+Dotaknite svoj bezbednosni kljuü
+; Touch your security key
+;
+MSG_KEY_WAIT
+¨ekanje na bezbednosni kljuü...
+; Waiting for the security key...
+;
+MSG_KEY_TITLE
+Bezbednosni kljuü
+; Security key
+;
+MSG_CANCEL
+PoniÁti
+; Cancel
 ;

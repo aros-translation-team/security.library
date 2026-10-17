@@ -1,4 +1,4 @@
-## version $VER: Security.catalog 1.0 (06.08.2026)
+## version $VER: Security.catalog 1.1 (17.10.2026)
 ## language nederlands
 ## codeset 0
 ;
@@ -113,4 +113,24 @@ CheckPasswd voor %ld
 MSG_LOG_CHECKPASSWDFAIL
 CheckPasswd voor %ld mislukt
 ; CheckPasswd for %ld failed
+;
+MSG_KEY_INSERT
+Plaats uw beveiligingssleutel
+; Insert your security key
+;
+MSG_KEY_TOUCH
+Raak uw beveiligingssleutel aan
+; Touch your security key
+;
+MSG_KEY_WAIT
+Wachten op de beveiligingssleutel...
+; Waiting for the security key...
+;
+MSG_KEY_TITLE
+Beveiligingssleutel
+; Security key
+;
+MSG_CANCEL
+Annuleer
+; Cancel
 ;

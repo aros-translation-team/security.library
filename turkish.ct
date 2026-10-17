@@ -1,4 +1,4 @@
-## version $VER: Security.catalog 1.0 (06.08.2026)
+## version $VER: Security.catalog 1.1 (17.10.2026)
 ## language türkçe
 ## codeset 12
 ;
@@ -113,4 +113,24 @@ MSG_LOG_CHECKPASSWD
 MSG_LOG_CHECKPASSWDFAIL
 %ld için CheckPasswd baþarýsýz
 ; CheckPasswd for %ld failed
+;
+MSG_KEY_INSERT
+Güvenlik anahtarýnýzý takýn
+; Insert your security key
+;
+MSG_KEY_TOUCH
+Güvenlik anahtarýnýza dokunun
+; Touch your security key
+;
+MSG_KEY_WAIT
+Güvenlik anahtarý bekleniyor...
+; Waiting for the security key...
+;
+MSG_KEY_TITLE
+Güvenlik Anahtarý
+; Security key
+;
+MSG_CANCEL
+Vazgeç
+; Cancel
 ;

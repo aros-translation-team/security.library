@@ -1,4 +1,4 @@
-## version $VER: Security.catalog 1.0 (05.01.2020)
+## version $VER: Security.catalog 1.1 (17.10.2026)
 ## language español
 ## codeset 0
 ;
@@ -135,4 +135,24 @@ Comprobación de la Contraseña para %ld
 MSG_LOG_CHECKPASSWDFAIL
 Falló la Comprobación de la Contraseña para %ld
 ;CheckPasswd for %ld failed
+;
+MSG_KEY_INSERT
+Inserta tu llave de seguridad
+; Insert your security key
+;
+MSG_KEY_TOUCH
+Toca tu llave de seguridad
+; Touch your security key
+;
+MSG_KEY_WAIT
+Esperando la llave de seguridad...
+; Waiting for the security key...
+;
+MSG_KEY_TITLE
+Llave de Seguridad
+; Security key
+;
+MSG_CANCEL
+Cancelar
+; Cancel
 ;

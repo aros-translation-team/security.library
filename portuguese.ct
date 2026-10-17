@@ -1,4 +1,4 @@
-## version $VER: Security.catalog 1.0 (05.01.2020)
+## version $VER: Security.catalog 1.1 (17.10.2026)
 ## language português
 ## codeset 0
 ;
@@ -126,4 +126,24 @@ Verificação da Password para %ld
 MSG_LOG_CHECKPASSWDFAIL
 Falhou a verificação da Password para %ld
 ;CheckPasswd for %ld failed
+;
+MSG_KEY_INSERT
+Insira a sua chave de segurança
+; Insert your security key
+;
+MSG_KEY_TOUCH
+Toque na sua chave de segurança
+; Touch your security key
+;
+MSG_KEY_WAIT
+A aguardar a chave de segurança...
+; Waiting for the security key...
+;
+MSG_KEY_TITLE
+Chave de Segurança
+; Security key
+;
+MSG_CANCEL
+Cancelar
+; Cancel
 ;

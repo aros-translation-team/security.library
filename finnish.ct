@@ -1,4 +1,4 @@
-## version $VER: Security.catalog 1.0 (06.08.2026)
+## version $VER: Security.catalog 1.1 (17.10.2026)
 ## language suomi
 ## codeset 0
 ;
@@ -113,4 +113,24 @@ CheckPasswd käyttäjälle %ld
 MSG_LOG_CHECKPASSWDFAIL
 CheckPasswd käyttäjälle %ld epäonnistui
 ; CheckPasswd for %ld failed
+;
+MSG_KEY_INSERT
+Aseta tietoturva-avaimesi
+; Insert your security key
+;
+MSG_KEY_TOUCH
+Kosketa tietoturva-avaintasi
+; Touch your security key
+;
+MSG_KEY_WAIT
+Odotetaan tietoturva-avainta...
+; Waiting for the security key...
+;
+MSG_KEY_TITLE
+Tietoturva-avain
+; Security key
+;
+MSG_CANCEL
+Peru
+; Cancel
 ;

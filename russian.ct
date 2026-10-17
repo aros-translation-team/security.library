@@ -1,4 +1,4 @@
-## version $VER: Security.catalog 1.0 (05.01.2020)
+## version $VER: Security.catalog 1.1 (17.10.2026)
 ## language russian
 ## codeset 2104
 ;
@@ -11,7 +11,7 @@ MSG_RESUME
 Продолжить
 ;
 MSG_WARNING_GUI
-Security Warning
+Предупреждение безопасности
 ;
 MSG_LOGINREQ_GUI
 Запрос логина
@@ -20,10 +20,10 @@ MSG_LOGINPROMPT_GUI
 \33cДобро пожаловать в AROS Research OS\nВерсия AROS: %s\n\nПожалуйста, введите ваши данные\nдля входа в %s.
 ;
 MSG_LOGINREQ_CON
-\033[0;0H\033[J\n\n\n     AROS %s at %s\n
+\033[0;0H\033[J\n\n\n     AROS %s на %s\n
 ;
 MSG_LOGINPROMPT_CON
-\n\nLogin    :
+\n\nЛогин  :
 ;
 MSG_PASSWDPROMPT_GUI
 Введите Ваш пароль
@@ -32,16 +32,16 @@ MSG_PASSWDPROMPT_CON
 Пароль :
 ;
 MSG_LOGINFAIL_GUI
-Login Incorrect
+Неверный логин
 ;
 MSG_LOGINFAIL_CON
-\n    Login Incorrect !!\n
+\n    Неверный логин !!\n
 ;
 MSG_LASTLOGIN
-Logged in on %s, %s at %s.\n\nLast login on %s, %s at %s.
+Вход выполнен %s, %s в %s.\n\nПредыдущий вход %s, %s в %s.
 ;
 MSG_FIRSTLOGIN
-Logged in on %s, %s at %s.\n\nNever logged in before.
+Вход выполнен %s, %s в %s.\n\nРанее входов не было.
 ;
 ; warning strings
 ;
@@ -52,45 +52,65 @@ MSG_NOCONFIGFILE
 Ошибка загрузки конфигурационного файла\nИспользуются параметры по умолчанию
 ;
 MSG_BADKEYFILE
-Security violation: Bad or inconsistent keyfile(s) found
+Нарушение безопасности: обнаружен неверный или несогласованный файл ключей
 ;
 MSG_BADENTRY_PASSWD
 Найдено неверное значение на строке %ld файла паролей\nЭта линия будет игнорироваться
 ;
 MSG_BADENTRY_GROUP
-Bad entry found on line %ld of the group file\nThis line will be ignored
+Найдено неверное значение на строке %ld файла групп\nЭта линия будет игнорироваться
 ;
 MSG_BADVALUE_CONFIG
-Bad value(s) found on line %ld of the configuration file\n\
-This value will be ignored
+Найдены неверные значения на строке %ld конфигурационного файла\n\
+Это значение будет игнорироваться
 ;
 MSG_BADOPTION_CONFIG
-Bad option found on line %ld of the configuration file\nThis line will be ignored
+Найден неверный параметр на строке %ld конфигурационного файла\nЭта линия будет игнорироваться
 ;
 MSG_TOOMANYSECGROUPS
-Too many secondary groups for user with uid %ld\n\
-Line %ld of the group file will be ignored
+Слишком много дополнительных групп для пользователя с uid %ld\n\
+Строка %ld файла групп будет игнорироваться
 ;
 ; logfile strings
 ;
 MSG_LOG_STARTUP
-Startup
+Запуск
 ;
 MSG_LOG_LOGIN
-Login from %ld to \'%s\'
+Вход с %ld в \'%s\'
 ;
 MSG_LOG_LOGINFAIL
-Login from %ld to \'%s\' failed
+Неудачный вход с %ld в \'%s\'
 ;
 MSG_LOG_PASSWD
-Passwd for %ld
+Смена пароля для %ld
 ;
 MSG_LOG_PASSWDFAIL
-Неверный пароль для %ld
+Неудачная смена пароля для %ld
 ;
 MSG_LOG_CHECKPASSWD
-CheckPasswd for %ld
+Проверка пароля для %ld
 ;
 MSG_LOG_CHECKPASSWDFAIL
-CheckPasswd for %ld failed
+Неудачная проверка пароля для %ld
+;
+MSG_KEY_INSERT
+Вставьте ваш ключ безопасности
+; Insert your security key
+;
+MSG_KEY_TOUCH
+Коснитесь вашего ключа безопасности
+; Touch your security key
+;
+MSG_KEY_WAIT
+Ожидание ключа безопасности...
+; Waiting for the security key...
+;
+MSG_KEY_TITLE
+Ключ безопасности
+; Security key
+;
+MSG_CANCEL
+Отмена
+; Cancel
 ;

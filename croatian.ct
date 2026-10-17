@@ -1,4 +1,4 @@
-## version $VER: Security.catalog 1.0 (05.01.2020)
+## version $VER: Security.catalog 1.1 (17.10.2026)
 ## language hrvatski
 ## codeset 5
 ;
@@ -123,4 +123,24 @@ Provjera zaporke za %ld
 MSG_LOG_CHECKPASSWDFAIL
 Provjera zaporke za %ld neuspjela
 ;CheckPasswd for %ld failed
+;
+MSG_KEY_INSERT
+Umetnite svoj sigurnosni kljuè
+; Insert your security key
+;
+MSG_KEY_TOUCH
+Dotaknite svoj sigurnosni kljuè
+; Touch your security key
+;
+MSG_KEY_WAIT
+Èekanje sigurnosnog kljuèa...
+; Waiting for the security key...
+;
+MSG_KEY_TITLE
+Sigurnosni kljuè
+; Security key
+;
+MSG_CANCEL
+Odustani
+; Cancel
 ;

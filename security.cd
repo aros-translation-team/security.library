@@ -93,3 +93,18 @@ CheckPasswd for %ld
 MSG_LOG_CHECKPASSWDFAIL(//)
 CheckPasswd for %ld failed
 ;
+MSG_KEY_INSERT(//)
+Insert your security key
+;
+MSG_KEY_TOUCH(//)
+Touch your security key
+;
+MSG_KEY_WAIT(//)
+Waiting for the security key...
+;
+MSG_KEY_TITLE(//)
+Security key
+;
+MSG_CANCEL(//)
+Cancel
+;

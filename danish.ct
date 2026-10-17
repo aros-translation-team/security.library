@@ -1,4 +1,4 @@
-## version $VER: Security.catalog 1.0 (06.08.2026)
+## version $VER: Security.catalog 1.1 (17.10.2026)
 ## language dansk
 ## codeset 0
 ;
@@ -113,4 +113,24 @@ CheckPasswd for %ld
 MSG_LOG_CHECKPASSWDFAIL
 CheckPasswd for %ld mislykkedes
 ; CheckPasswd for %ld failed
+;
+MSG_KEY_INSERT
+Indsæt din sikkerhedsnøgle
+; Insert your security key
+;
+MSG_KEY_TOUCH
+Berør din sikkerhedsnøgle
+; Touch your security key
+;
+MSG_KEY_WAIT
+Venter på sikkerhedsnøglen...
+; Waiting for the security key...
+;
+MSG_KEY_TITLE
+Sikkerhedsnøgle
+; Security key
+;
+MSG_CANCEL
+Afbryd
+; Cancel
 ;

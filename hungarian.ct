@@ -1,4 +1,4 @@
-## version $VER: Security.catalog 1.0 (06.08.2026)
+## version $VER: Security.catalog 1.1 (17.10.2026)
 ## language magyar
 ## codeset 5
 ;
@@ -113,4 +113,24 @@ CheckPasswd erre: %ld
 MSG_LOG_CHECKPASSWDFAIL
 CheckPasswd erre: %ld sikertelen
 ; CheckPasswd for %ld failed
+;
+MSG_KEY_INSERT
+Helyezd be a biztonsági kulcsodat
+; Insert your security key
+;
+MSG_KEY_TOUCH
+Érintsd meg a biztonsági kulcsodat
+; Touch your security key
+;
+MSG_KEY_WAIT
+Várakozás a biztonsági kulcsra...
+; Waiting for the security key...
+;
+MSG_KEY_TITLE
+Biztonsági kulcs
+; Security key
+;
+MSG_CANCEL
+Mégsem
+; Cancel
 ;

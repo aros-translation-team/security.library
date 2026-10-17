@@ -1,4 +1,4 @@
-## version $VER: Security.catalog 1.0 (06.08.2026)
+## version $VER: Security.catalog 1.1 (17.10.2026)
 ## language deutsch
 ## codeset 0
 ;
@@ -113,4 +113,24 @@ CheckPasswd für %ld
 MSG_LOG_CHECKPASSWDFAIL
 CheckPasswd für %ld fehlgeschlagen
 ; CheckPasswd for %ld failed
+;
+MSG_KEY_INSERT
+Stecken Sie Ihren Sicherheitsschlüssel ein
+; Insert your security key
+;
+MSG_KEY_TOUCH
+Berühren Sie Ihren Sicherheitsschlüssel
+; Touch your security key
+;
+MSG_KEY_WAIT
+Warte auf den Sicherheitsschlüssel...
+; Waiting for the security key...
+;
+MSG_KEY_TITLE
+Sicherheitsschlüssel
+; Security key
+;
+MSG_CANCEL
+Abbrechen
+; Cancel
 ;

@@ -1,4 +1,4 @@
-## version $VER: Security.catalog 1.0 (05.01.2020)
+## version $VER: Security.catalog 1.1 (17.10.2026)
 ## language italiano
 ## codeset 0
 ;
@@ -93,4 +93,24 @@ Controllo per %ld
 ;
 MSG_LOG_CHECKPASSWDFAIL
 Controllo per %ld fallito
+;
+MSG_KEY_INSERT
+Inserisci la tua chiave di sicurezza
+; Insert your security key
+;
+MSG_KEY_TOUCH
+Tocca la tua chiave di sicurezza
+; Touch your security key
+;
+MSG_KEY_WAIT
+In attesa della chiave di sicurezza...
+; Waiting for the security key...
+;
+MSG_KEY_TITLE
+Chiave di sicurezza
+; Security key
+;
+MSG_CANCEL
+Annulla
+; Cancel
 ;

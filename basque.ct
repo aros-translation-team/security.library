@@ -1,4 +1,4 @@
-## version $VER: Security.catalog 1.0 (06.08.2026)
+## version $VER: Security.catalog 1.1 (17.10.2026)
 ## language euskara
 ## codeset 0
 ;
@@ -113,4 +113,24 @@ CheckPasswd %ld erabiltzailearentzat
 MSG_LOG_CHECKPASSWDFAIL
 CheckPasswd-ek huts egin du %ld erabiltzailearentzat
 ; CheckPasswd for %ld failed
+;
+MSG_KEY_INSERT
+Sartu zure segurtasun-gakoa
+; Insert your security key
+;
+MSG_KEY_TOUCH
+Ukitu zure segurtasun-gakoa
+; Touch your security key
+;
+MSG_KEY_WAIT
+Segurtasun-gakoaren zain...
+; Waiting for the security key...
+;
+MSG_KEY_TITLE
+Segurtasun-gakoa
+; Security key
+;
+MSG_CANCEL
+Deuseztu
+; Cancel
 ;
